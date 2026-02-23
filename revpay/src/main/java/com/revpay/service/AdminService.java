@@ -4,12 +4,8 @@ import com.revpay.common.RevPayException;
 import com.revpay.dto.admin.AdminUserResponse;
 import com.revpay.dto.loan.LoanResponse;
 import com.revpay.entity.*;
-import com.revpay.enums.LoanStatus;
-import com.revpay.enums.Role;
-import com.revpay.enums.TransactionStatus;
-import com.revpay.enums.TransactionType;
+import com.revpay.enums.*;
 import com.revpay.repository.*;
-import com.revpay.enums.EMIStatus;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -66,7 +62,7 @@ public class AdminService {
 
     public long getTotalByRole(String role) {
         return userRepository.countByRole(
-                com.revpay.enums.Role.valueOf(role));
+                Role.valueOf(role));
     }
 
     private AdminUserResponse toResponse(User user) {
