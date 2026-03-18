@@ -18,7 +18,7 @@ Handles APIs, authentication, business logic, and service communication.
 ### 🎨 Frontend (UI Application)
 Handles user interface and client-side interactions.
 
-👉 [Go to Frontend Repo](https://github.com/SanjayPrasad1/RevPay_V1_Frontend)
+👉 [Go to Frontend Repo](https://github.com/SanjayPrasad1/RevPay_V1_Frontend/tree/main/revpay_frontend)
 
 ## Table of Contents
 
