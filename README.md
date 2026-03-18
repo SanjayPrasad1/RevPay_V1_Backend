@@ -8,7 +8,7 @@ A full-stack fintech application built with **Spring Boot 4** and **Angular 21**
 
 This project is split into two main repositories:
 
-### 🧠 Backend (Spring Boot Microservices)
+### 🧠 Backend 
 Handles APIs, authentication, business logic, and service communication.
 
 👉 [Go to Backend Repo](https://github.com/SanjayPrasad1/RevPay_V1_Backend)
